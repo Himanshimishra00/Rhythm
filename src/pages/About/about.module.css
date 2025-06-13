@@ -1,0 +1,111 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+background-image:linear-gradient(135deg,#c485fc,#f9ad7d,#61d3f9) ; 
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  animation: fadeIn 1.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #fcb69f, #ffecd2);
+  border-radius: 16px;
+  animation: slideInDown 1.2s ease-in-out;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #d64059;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffffb9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  animation: fadeSlideUp 1s ease-in-out;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  color: #f27121;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.section li::before {
+  content: "✓";
+  color: #f27121;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.section li span {
+  font-weight: 600;
+  color: #222;
+}

@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(135deg,#8e2de2,#f27121,#3ecfff); */
+    background-image:linear-gradient(135deg,#c485fc,#f9ad7d,#61d3f9) ; 
+    /* background: linear-gradient(135deg, #ffe0ec, #e0f7ff); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-x: hidden;
+}
